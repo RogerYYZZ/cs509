@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+	
+<meta charset="utf-8"  >
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	
+	<link rel="stylesheet" href="main.css">
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="main.js" ></script>
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+
+	<title>HobbitsFlight-SearchResults</title> 
+
+<title>HobbitsFlight-SearchResults</title> 
+<style>
+body
+{
+ margin: 0px;
+ padding: 0px;
+}
+div#Filter{
+position: absolute;
+left: 0px;
+width:15%;
+}
+div#DisplaySearchResults{
+margin-left: auto;
+margin-right: auto;
+padding: 0px;
+width: 60%;
+height: 80%;
+overflow: auto;
+}
+.result {
+position:relative;
+width:99%;
+height:160px; 
+border:1px solid black;
+overflow: auto;
+}
+div#Results-LeftRow
+{
+padding-right:10px;
+ 
+padding-left:10px; 
+padding-top:10px; 
+float:left;
+min-width:15%;
+}
+div#Results-CenterRow
+{
+padding-left:10px; 
+padding-right:10px; 
+padding-top:10px; 
+float:left;
+}
+div#Results-RightRow
+{
+padding-left:10px; 
+padding-right:10px; 
+padding-top:10px; 
+float:right;
+}
+div#RightCo
+{
+
+position: absolute;
+right: 0px;
+width:15%
+}
+div#footer
+{
+text-align: center;
+}
+div#details{
+  display: none;
+  padding: 5px 5px 5px 10px;
+  position: absolute;
+  bottom: 0px;
+ 
+  color: white;
+  
+
+}
+.detail{
+  padding: 5px 5px 5px 10px;
+  position: absolute;
+  bottom: 0px;
+  width: 457px;
+  background-color: #35a785;
+}
+
+</style>
+	
+</script>
+<script language="JavaScript">
+var count = 0;
+function setVisibility(id, visibility) {
+	if(count%2 ==0) {
+document.getElementById(id).style.display = "inline";
+}
+else  document.getElementById(id).style.display = "none";
+count = count +1;
+}
+</script>
+</head>
+
+
+
+
+
+
+
+
+
+<body>
+
+
+
+
+<!--the left block for filter -->
+<div id="Filter">
+<h1>Filter</h1>
+<ul>
+ <li>one-stop</li>
+ <li>more-stops</li>
+</div>
+
+<!--the right block for later use -->
+<div id="RightCo">
+<h1>For later use</h1>
+
+</div>
+
+<div class = "page">
+<!--the center block for showing results-->
+<div id="DisplaySearchResults">
+<!--head for the block -->
+<h1>
+Search Results
+</h1>
+
+
+
+<div id="SearchResults"  class= "result">
+<div id="Results-LeftRow">
+
+PRICE
+<a href="#0" class="cd-popup-trigger">Select</a>
+
+<div class="cd-popup" role="alert">
+	<div class="cd-popup-container">
+		<p>Are you sure that you want to purchase this ticket?</p>
+		<ul class="cd-buttons">
+			<li><a href="#0" class="cd-popup-yes">Yes</a></li>
+			<li><a href="#0" class="cd-popup-no">No</a></li>
+		</ul>
+		<a href="#0" class="cd-popup-close img-replace">Close</a>
+	</div> <!-- cd-popup-container -->
+</div> <!-- cd-popup -->
+
+</div>
+
+
+
+<div id="Results-CenterRow">
+<h id="Results-TimeInfo-head">Depature Time</h>
+<p id="Results-TimeInfo-p">Here for times
+</p>
+<hr style="width:100%;">
+<h id="Results-TimeInfo-head">Arrival Time</h>
+<p id="Results-TimeInfo-p">Here for times
+</p>
+</div>
+
+<div id="Results-RightRow">
+ <p>Flight Number
+ </p>
+ <p id = "flightnum">
+ 0180
+ </p> 
+
+<p>Seating
+</p>
+<p id = "seating">
+Coach
+</p>
+</div>
+
+  <a href="#0" class = "detail" onclick="setVisibility('details','inline');">show details</a>
+      <div id="details"> flight</div>
+    
+
+</div>
+<hr>
+
+
+<div id="SearchResults"  class = "result">
+<div id="Results-LeftRow">
+
+PRICE<br>
+
+<br>
+
+SELETEDBUTTON<br>
+
+</div>
+
+
+
+<div id="Results-CenterRow">
+<h id="Results-TimeInfo-head">Depature Time</h>
+<p id="Results-TimeInfo-p">Here for times
+</p>
+<hr style="width:100%;">
+<h id="Results-TimeInfo-head">Arrival Time</h>
+<p id="Results-TimeInfo-p">Here for times
+</p>
+</div>
+
+<div id="Results-RightRow">
+<p>Flight Number
+</p>
+<p>Type of Plane
+</p>
+</div>
+
+</div>
+<hr>
+
+<div id="SearchResults" class = result>
+<div id="Results-LeftRow">
+
+PRICE<br>
+
+<br>
+
+SELETEDBUTTON<br>
+
+</div>
+
+
+
+<div id="Results-CenterRow">
+<h id="Results-TimeInfo-head">Depature Time</h>
+<p id="Results-TimeInfo-p">Here for times
+</p>
+<hr style="width:100%;">
+<h id="Results-TimeInfo-head">Arrival Time</h>
+<p id="Results-TimeInfo-p">Here for times
+</p>
+</div>
+
+<div id="Results-RightRow">
+<p>Flight Number
+</p>
+<p>Type of Plane
+</p>
+</div>
+
+</div>
+<hr>
+
+<div id="SearchResults" class = result>
+<div id="Results-LeftRow">
+
+PRICE<br>
+
+<br>
+
+SELETEDBUTTON<br>
+
+</div>
+
+
+
+<div id="Results-CenterRow">
+<h id="Results-TimeInfo-head">Depature Time</h>
+<p id="Results-TimeInfo-p">Here for times
+</p>
+<hr style="width:100%;">
+<h id="Results-TimeInfo-head">Arrival Time</h>
+<p id="Results-TimeInfo-p">Here for times
+</p>
+</div>
+
+<div id="Results-RightRow">
+<p>Flight Number
+</p>
+<p>Type of Plane
+</p>
+</div>
+
+</div>
+<hr>
+<div id="SearchResults" class = result>
+<div id="Results-LeftRow">
+
+PRICE<br>
+
+<br>
+
+SELETEDBUTTON<br>
+
+</div>
+
+
+
+<div id="Results-CenterRow">
+<h id="Results-TimeInfo-head">Depature Time</h>
+<p id="Results-TimeInfo-p">Here for times
+</p>
+<hr style="width:100%;">
+<h id="Results-TimeInfo-head">Arrival Time</h>
+<p id="Results-TimeInfo-p">Here for times
+</p>
+</div>
+
+<div id="Results-RightRow">
+<p>Flight Number
+</p>
+<p>Type of Plane
+</p>
+</div>
+
+</div>
+<hr>
+<div id="SearchResults" class = result>
+<div id="Results-LeftRow">
+
+PRICE<br>
+
+<br>
+
+SELETEDBUTTON<br>
+
+</div>
+
+
+
+<div id="Results-CenterRow">
+<h id="Results-TimeInfo-head">Depature Time</h>
+<p id="Results-TimeInfo-p">Here for times
+</p>
+<hr style="width:100%;">
+<h id="Results-TimeInfo-head">Arrival Time</h>
+<p id="Results-TimeInfo-p">Here for times
+</p>
+</div>
+
+<div id="Results-RightRow">
+<p>Flight Number
+</p>
+<p>Type of Plane
+</p>
+</div>
+
+</div>
+</div>
+
+<div class="pagination"> </div>
+
+</div>
+
+
+
+<div style="clear:both">
+<br>
+
+</div>
+
+
+
+<div id="footer" style="clear:both;">	
+		
+		
+<footer id="main_footer">
+			
+<p>contact us</p>
+		
+</footer>
+	
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="main.js"></script> <!-- Resource jQuery -->
+<script src="js/jquery.js"></script> <!-- Resource jQuery -->
+<script src="js/paginate.js"></script> <!-- Resource jQuery -->
+<script src="js/custom.js"></script> <!-- Resource jQuery -->
+<script src="js/mainRevise.js"></script> <!-- Resource jQuery -->
+</body>
+
+
+</html>

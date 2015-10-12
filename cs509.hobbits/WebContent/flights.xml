@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Flights>
+    <Flight Airplane="230" FlightTime="35" Number="017">
+        <Departure>
+            <Code>BOS</Code>
+            <Time>2015 May 07 20:09 EDT</Time>
+        </Departure>
+        <Arrival>
+            <Code>JFK</Code>
+            <Time>2015 May 07 20:44 EDT</Time>
+        </Arrival>
+        <Seating>
+            <FirstClass Price="$33.76">57</FirstClass>
+            <Coach Price="$6.67">6</Coach>
+        </Seating>
+    </Flight>
+    <Flight Airplane="A320" FlightTime="58" Number="0180">
+        <Departure>
+            <Code>BOS</Code>
+            <Time>2015 May 07 20:21 EDT</Time>
+        </Departure>
+        <Arrival>
+            <Code>BWI</Code>
+            <Time>2015 May 07 21:19 EDT</Time>
+        </Arrival>
+        <Seating>
+            <FirstClass Price="$362.99">57</FirstClass>
+            <Coach Price="$35.13">38</Coach>
+        </Seating>
+    </Flight>
+</Flights>

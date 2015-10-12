@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>HobbitsFlight-Homepage</title> 
+	  <link rel="stylesheet" href="css/datepicker.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+
+     <script src="js/jquery.js"></script>
+        <script src="js/bootstrap-datepicker.js"></script>
+        <script type="text/javascript">
+        
+            // When the document is ready
+            $(document).ready(function () {
+                
+                $('.date1').datepicker({
+                    startView: 1
+                });
+            
+            });
+  </script>
+</head>
+
+
+
+
+
+<body>
+
+<h1>
+Flights
+</h1>
+
+
+		
+	
+<div id="bottom">
+
+</div>
+
+<div id="SearchTypes">
+
+<div class="BlockSearchTypes">
+<span class="SearchTypes">
+<input class="bottonset hidden" id="roundtrip" name="oneway" type="radio" value="n" checked="checked" />
+<lable class="bottonset-lable hidden" id="roundtrip-lable" for="roundtrip" title="roundtirp" role="botton"><span>Round-trip</span>
+</lable>
+<input class="bottonset hidden" id="onewaytrip" name="oneway" type="radio" value="y" />
+<lable class="bottonset-lable hidden" id="onewaytrip-lable" for="onewaytrip" title="One-way" role="botton"><span>One-way</span>
+</lable>
+</span>
+</div>
+
+<div id="bottom">
+
+</div>
+
+<div id="FlightSearch" display="inline">	
+		
+	From<input type="text" id="depart"></input>
+		
+    To<input type="text" id="arrival"></input>
+		
+	<!--<input type="text" id="depart_date">Depart</input>
+	-->
+	
+     Departure Date <input type="text" class="date1"/>     
+    
+	<button type="button" onclick=window.location.href='SearchResults.html?depart='+document.getElementById("depart").value+'&arrival='+document.getElementById("arrival").value+'&depart_date='+document.getElementById("depart_date").value>SEARCH</button>
+		
+		
+</div>
+		
+		
+		
+		
+
+<div id="myDiv">
+<h2>Set Detination</h2>
+</div>
+		
+		
+		
+		
+		
+
+<footer id="main_footer" style="clear:both;">
+			
+<p>contact us</p>
+		
+</footer>
+	
+</div>
+	
+
+
+</body>
+
+
+</html>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="0" hostname="autoreg-669361.wifi.wpi.edu" name="cs509.hobbits.test.FlightTest" skipped="0" tests="1" time="0.044" timestamp="2015-04-17T00:26:13">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="env.__CHECKFIX1436934" value="1" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="eclipse.pdebuild.templates" value="/Users/xuyu/Downloads/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/templates//" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.name" value="Mac OS X" />
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/classes" />
+    <property name="env.TMPDIR" value="/var/folders/t1/_s52vrhn0vb8clwqs8jt234m0000gn/T/" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="/Users/xuyu/Downloads/eclipse/plugins/org.apache.ant_1.9.2.v201404171502" />
+    <property name="java.runtime.version" value="1.8.0_40-b27" />
+    <property name="env.Apple_PubSub_Socket_Render" value="/tmp/launch-qA6Ec9/Render" />
+    <property name="ant.file.cs509.hobbits" value="/Users/xuyu/Documents/509/cs509.hobbits/build.xml" />
+    <property name="env.DISPLAY" value="/tmp/launch-1OD8fc/org.macosforge.xquartz:0" />
+    <property name="user.name" value="xuyu" />
+    <property name="env.USER" value="xuyu" />
+    <property name="env.SHELL" value="/bin/bash" />
+    <property name="env.__CF_USER_TEXT_ENCODING" value="0x1F5:0:0" />
+    <property name="env.PATH" value="/usr/bin:/bin:/usr/sbin:/sbin" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib" />
+    <property name="env.JAVA_STARTED_ON_FIRST_THREAD_20170" value="1" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="ant.project.name" value="cs509.hobbits" />
+    <property name="java.version" value="1.8.0_40" />
+    <property name="user.timezone" value="America/New_York" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/endorsed" />
+    <property name="ant.file.type.cs509.hobbits" value="file" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="ECLIPSE_HOME" value="../../../Downloads/eclipse/" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.LOGNAME" value="xuyu" />
+    <property name="ant.file" value="/Users/xuyu/Documents/509/cs509.hobbits/build.xml" />
+    <property name="os.version" value="10.9.3" />
+    <property name="env.JAVA_MAIN_CLASS_20170" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="25.40-b25" />
+    <property name="ant.library.dir" value="/Users/xuyu/Downloads/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="env.APP_ICON_20158" value="../Resources/Eclipse.icns" />
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeBig" />
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit" />
+    <property name="env.JAVA_STARTED_ON_FIRST_THREAD_20158" value="1" />
+    <property name="eclipse.pdebuild.scripts" value="/Users/xuyu/Downloads/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/scripts//" />
+    <property name="user.home" value="/Users/xuyu" />
+    <property name="target" value="1.8" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="/Users/xuyu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="gopherProxySet" value="false" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner cs509.hobbits.test.FlightTest filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/xuyu/Documents/509/cs509.hobbits/junit/TEST-cs509.hobbits.test.FlightTest.xml crashfile=/Users/xuyu/Documents/509/cs509.hobbits/junitvmwatcher7114761731554885105.properties propsfile=/Users/xuyu/Documents/509/cs509.hobbits/junit3940315756886236476.properties" />
+    <property name="java.class.path" value="/Users/xuyu/Documents/509/cs509.hobbits/build/classes:/Library/Tomcat/lib/annotations-api.jar:/Library/Tomcat/lib/catalina-ant.jar:/Library/Tomcat/lib/catalina-ha.jar:/Library/Tomcat/lib/catalina-storeconfig.jar:/Library/Tomcat/lib/catalina-tribes.jar:/Library/Tomcat/lib/catalina.jar:/Library/Tomcat/lib/ecj-4.4.2.jar:/Library/Tomcat/lib/el-api.jar:/Library/Tomcat/lib/jasper-el.jar:/Library/Tomcat/lib/jasper.jar:/Library/Tomcat/lib/jsp-api.jar:/Library/Tomcat/lib/servlet-api.jar:/Library/Tomcat/lib/tomcat-api.jar:/Library/Tomcat/lib/tomcat-coyote.jar:/Library/Tomcat/lib/tomcat-dbcp.jar:/Library/Tomcat/lib/tomcat-i18n-es.jar:/Library/Tomcat/lib/tomcat-i18n-fr.jar:/Library/Tomcat/lib/tomcat-i18n-ja.jar:/Library/Tomcat/lib/tomcat-jdbc.jar:/Library/Tomcat/lib/tomcat-jni.jar:/Library/Tomcat/lib/tomcat-spdy.jar:/Library/Tomcat/lib/tomcat-util-scan.jar:/Library/Tomcat/lib/tomcat-util.jar:/Library/Tomcat/lib/tomcat-websocket.jar:/Library/Tomcat/lib/websocket-api.jar:/Users/xuyu/Documents/509/cs509.hobbits/WebContent/WEB-INF/lib/log4j-1.2.17.jar:/Users/xuyu/Documents/509/cs509.hobbits/WebContent/WEB-INF/classes:/Users/xuyu/Downloads/junit-4.12.jar:/Users/xuyu/Downloads/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-launcher.jar:/Users/xuyu/Downloads/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant.jar:/Users/xuyu/Downloads/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-junit.jar:/Users/xuyu/Downloads/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.2 compiled on July 8 2013" />
+    <property name="env.com.apple.java.jvmMode" value="client" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.HOME" value="/Users/xuyu" />
+    <property name="env.ANT_HOME" value="/Users/xuyu/Downloads/eclipse/plugins/org.apache.ant_1.9.2.v201404171502" />
+    <property name="java.io.tmpdir" value="/var/folders/t1/_s52vrhn0vb8clwqs8jt234m0000gn/T/" />
+    <property name="eclipse.pdebuild.home" value="/Users/xuyu/Downloads/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/.//" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.SSH_AUTH_SOCK" value="/tmp/launch-xoAWhU/Listeners" />
+    <property name="os.arch" value="x86_64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment" />
+    <property name="java.ext.dirs" value="/Users/xuyu/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
+    <property name="user.dir" value="/Users/xuyu/Documents/509/cs509.hobbits" />
+    <property name="env.com.apple.java.jvmTask" value="JNI" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="/Users/xuyu/Documents/509/cs509.hobbits" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="/Users/xuyu/Downloads/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant.jar" />
+    <property name="source" value="1.8" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="ant.project.invoked-targets" value="build,LocalTimeTest,AirportTest,FlightTest,junitreport,FlightPlanTest" />
+  </properties>
+  <testcase classname="cs509.hobbits.test.FlightTest" name="initializationError" time="0.006">
+    <error message="org/hamcrest/SelfDescribing" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/hamcrest/SelfDescribing
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+Caused by: java.lang.ClassNotFoundException: org.hamcrest.SelfDescribing
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+</error>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
